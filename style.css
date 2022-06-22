@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    background-image: url('./assets/chips.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h4{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 15px;
+}
+.content{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#search :focus {
+    width: 50%;
+    border: unset;
+    border-radius: 20px;
+    text-align: center;
+}
+
+input[type=text]{
+    width: 130px;
+    border: 2px solid #ddd;
+    font-size: 17px;
+    padding: 8px;
+}
+
+#btn{
+    background: rgb(243, 159, 4);
+    border: 2px solid rgb(243, 159, 4);
+    padding: 8px;
+    cursor: pointer;
+}
+
+#search-form{
+    margin: auto;
+}
+
+
+
+.container{
+    width: 800px;
+    background: coral;
+    
+}
+.default-meals{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+}
+
+.meals{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+ul{
+    list-style: none;
+    color: #fff;
+    font-size: 17px;
+}
+ul h3{
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}

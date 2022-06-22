@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Application</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <h4>Recipe App</h4>
+    <!-- search -->
+    <div class="content">
+        <form  id="submit" method="get">
+            <input type="text" id="search" placeholder="search for your favorite recipe">
+            <input type="submit" id="btn" value="Search">
+        </form>
+        <!-- result from the api endpoint -->
+        <div id="result-heading">
+            <div id="meals">
+            </div>
+            <div id="single-meal"></div>
+        </div>
+        <div class="animate">
+            <p>Looking forward <span>to preparing delicious?</span> </p>
+            <p>don't worry! you're in the right place. just type the name of the meal you'd like to prepeare and click on "search" button!</p>
+
+        </div>
+
+    </div>
+    
+</main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
