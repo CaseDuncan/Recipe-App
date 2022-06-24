@@ -12,5 +12,6 @@ Retrieving:
 3. Preparation Procedure
 
 ## SCREENSHOTS
-![landingpage!](/home/dev-dan/Desktop/Recipe App/assets/recipefront.png)
+- ![recipefront](https://user-images.githubusercontent.com/90550934/175484075-6af5c093-6201-438f-9cea-2c33d6d2241b.png)
+- ![showcase](https://user-images.githubusercontent.com/90550934/175484197-a640da9e-4ae8-4caf-b3d4-1e7657f976c2.png)
 
